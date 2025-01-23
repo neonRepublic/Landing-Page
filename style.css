@@ -12,6 +12,27 @@ body {
     justify-content: space-between;
 }
 
+h1 {
+    font-size: 46px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font: 16px;
+}
+
+h4 {
+    font: 12px;
+}
+
+strong {
+    color: red;
+    font-weight: bolder;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -48,5 +69,10 @@ body {
 
 .small-text {
     color: lightgreen;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
 }
 
