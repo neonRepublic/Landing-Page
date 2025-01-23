@@ -69,6 +69,7 @@ main .item {
 .container {
     display: flex;
     flex-direction: row;
+    gap: 46px;
 }
 
 .banner {
@@ -84,9 +85,18 @@ main .item {
     align-items: center;
 }
 
+.cta-background {
+    width: 1200px;
+    height: 120px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .Call-to-Action {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .Call-to-Action button {
@@ -97,6 +107,12 @@ main .item {
 .cta-button {
     display: flex;
     align-items: center;
+}
+
+.cta-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .large-text {
