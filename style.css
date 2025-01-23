@@ -84,6 +84,21 @@ main .item {
     align-items: center;
 }
 
+.Call-to-Action {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Call-to-Action button {
+    width: 130px;
+    height: 60px;
+}
+
+.cta-button {
+    display: flex;
+    align-items: center;
+}
+
 .large-text {
     color: blue;
     width: 800px;
