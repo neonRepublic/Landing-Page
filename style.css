@@ -36,6 +36,12 @@ strong {
 .header {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-list ol {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -47,6 +53,22 @@ strong {
 
 .header, .footer {
     background-color: yellow;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .item {
+    padding: 46px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
 }
 
 .banner {
