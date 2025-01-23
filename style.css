@@ -1,8 +1,7 @@
-* {
-    outline: 1px solid red;
-}
+
 
 body {
+    background-color: #6B8E23;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
@@ -13,19 +12,22 @@ body {
 }
 
 h1 {
-    font-size: 46px;
+    font-size: 36px;
+    color: yellow;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 18px;
 }
 
 h3 {
-    font: 16px;
+    font: 14px;
+    color: yellow;
 }
 
 h4 {
-    font: 12px;
+    font: 8px;
+    color: yellow;
 }
 
 strong {
@@ -52,10 +54,19 @@ strong {
 }
 
 .header, .footer {
-    background-color: yellow;
+    background-color: #333333;
+}
+
+.hero-section button {
+    font-size: 16px;
+    font-weight: bold;
+    color: yellow;
+    background-color: red;
+    border-radius: 12px;
 }
 
 main {
+    background-color: #6B8E23;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +86,7 @@ main {
 }
 
 .banner {
-    background-color: grey;
+    background-color: #646464;
 }
 
 .banner-text {
@@ -88,20 +99,26 @@ main {
 .cta-background {
     width: 1200px;
     height: 120px;
-    background-color: aqua;
+    background-color: yellow;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
 .Call-to-Action {
+    background-color: #6B8E23;
     display: flex;
     justify-content: center;
 }
 
 .Call-to-Action button {
+    background-color: red;
+    font-size: 16px;
+    font-weight: bold;
+    color: wheat;
     width: 130px;
     height: 60px;
+    border-radius: 12px;
 }
 
 .cta-button {
@@ -115,17 +132,31 @@ main {
     flex-direction: column;
 }
 
+.cta-text, .cta-large-text, .cta-small-text {
+    color: red;
+}
+
 .large-text {
-    color: blue;
+    color: wheat;
     width: 800px;
 }
 
 .small-text {
-    color: lightgreen;
+    color: wheat;
 }
 
 li {
     text-decoration: none;
     list-style: none;
+}
+
+p {
+    color: wheat;
+    font-size: 18px;
+}
+
+a {
+    color: red;
+    text-decoration-line: none;
 }
 
