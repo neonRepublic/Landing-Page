@@ -62,20 +62,20 @@ main {
     flex-direction: column;
 }
 
-main .item {
-    padding: 46px;
-}
-
 .container {
     display: flex;
     flex-direction: row;
-    gap: 46px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 46px;
 }
 
 .banner {
     background-color: grey;
-    margin: 0;
-    padding: 0;
 }
 
 .banner-text {
