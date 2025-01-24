@@ -6,7 +6,6 @@ body {
     margin: 0;
 }
 
-
 /*Main Hero Logo*/
 .logo-text {
     font-size: 24px;
@@ -34,7 +33,7 @@ body {
 }
 
 /*Quote Text*/
-.quote-text {
+.quote-container {
     font: 36px;
     color: #1f2937;
     font-style: italic;
@@ -97,9 +96,6 @@ main {
 .banner {
     height: 400px;
     background-color: #e5e7eb;
-}
-
-.banner-text {
     display: flex;
     justify-content: center;
     flex-direction: column;
