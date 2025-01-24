@@ -6,30 +6,38 @@ body {
     margin: 0;
 }
 
-h1 {
+
+/*Main Hero Logo*/
+.logo-text {
     font-size: 24px;
     color: #f9faf8;
 }
 
-h2 {
+/*Hero Main Text*/
+.main-hero {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 800;
 }
 
-h3 {
+/*Hero Secondary Text*/
+.secondary-hero {
     font: 18px;
     color: #e5e7eb;
 }
 
-h4 {
-    font: 8px;
-    color: yellow;
+/*Info Title*/
+.info-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
-strong {
-    color: red;
-    font-weight: bolder;
+/*Quote Text*/
+.quote-text {
+    font: 36px;
+    color: #1f2937;
+    font-style: italic;
 }
 
 .header {
@@ -130,33 +138,7 @@ main {
     align-items: center;
 }
 
-.cta-text {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.large-text {
-    color: wheat;
-    width: 800px;
-}
-
-.small-text {
-    color: wheat;
-}
-
 li {
     text-decoration: none;
     list-style: none;
-}
-
-p {
-    font-size: 36px;
-    color: #1f2937;
-    font-weight: bold;
-}
-
-a {
-    color: red;
-    text-decoration-line: none;
 }
