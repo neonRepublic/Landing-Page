@@ -57,9 +57,12 @@ strong {
 }
 
 .hero-section button {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
+    cursor: pointer;
     background-color: #3882f6;
+    color: #e5e7eb;
+    border: solid 1px #e5e7eb;
     border-radius: 12px;
 }
 
@@ -112,11 +115,14 @@ main {
 
 .Call-to-Action button {
     background-color: #3882f6;
+    color: #e5e7eb;
+    border: solid 1px #e5e7eb;
     font-size: 16px;
     font-weight: bold;
     width: 130px;
     height: 60px;
     border-radius: 12px;
+    cursor: pointer;
 }
 
 .cta-button {
